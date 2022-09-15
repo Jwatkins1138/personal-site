@@ -3,7 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: auto;
   overflow-y: scroll;
@@ -22,7 +22,8 @@ html {
   background-repeat: no-repeat;
   color: white;
   height: 100%;
-  margin: 0
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 code {
@@ -62,6 +63,7 @@ code {
   animation-iteration-count: infinite;
   animation-delay: none;
   animation-timing-function: linear;
+  backface-visibility: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -80,6 +82,11 @@ h1 {
   font-family: 'mollen';
 }
 
+h2 {
+  font-family: 'mollen';
+  margin: 0;
+}
+
 h3 {
   font-family: 'cinzel';
   margin: 0;
@@ -93,7 +100,9 @@ h5 {
 
 .sub-title {
   color: orange;
-  transform: translateY(-100%);
+  position: relative;
+  top: -30px;
+  backface-visibility: hidden;
 }
 
 .App {
