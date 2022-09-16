@@ -35,7 +35,7 @@ const Tech = () => {
           <tr>
             <td><span> python</span></td>
             <td><FontAwesomeIcon icon={faPython} size='2x' /></td>
-            <td>test</td>
+            <td>bootstrap / bulma</td>
             <td>test</td>
             <td>test</td>
           </tr>
