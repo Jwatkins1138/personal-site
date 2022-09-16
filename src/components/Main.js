@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <main>
       <section className='main-section'>
-        <div className='filler'><span className='big'>Big Test Stuff. Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></div>
+        <div className='filler'><span className='big'>-JCW-  Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></div>
         <div className='test-main-left'>
           <h2>STUFF</h2>
           <h3 className=''>with other stuff</h3>
