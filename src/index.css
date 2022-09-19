@@ -92,6 +92,16 @@ a, a:link, a:visited {
   cursor: default;
 }
 
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  color: lightgrey;
+}
+
+li {
+  border-bottom: 1px solid blue;
+}
+
 h1 {
   font-family: 'mollen';
 }
@@ -274,8 +284,25 @@ tr:hover {
 }
 
 .foot {
+  padding: 3em;
   display: flex;
+  justify-content: space-between;
   border-top: 1px solid orangered;
-  padding: 1em;
   background: rgb(0, 0, 0);
+}
+
+.foot-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-item {
+  font-size: smaller;
+  color: lightgrey;
+  border-bottom: 1px solid blue;
+  cursor: default;
+}
+
+.foot-item:hover {
+  background: red;
 }
