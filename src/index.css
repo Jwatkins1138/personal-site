@@ -86,6 +86,12 @@ code {
   background: rgb(0, 0, 0, .5);
 }
 
+a, a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  cursor: default;
+}
+
 h1 {
   font-family: 'mollen';
 }
@@ -271,4 +277,5 @@ tr:hover {
   display: flex;
   border-top: 1px solid orangered;
   padding: 1em;
+  background: rgb(0, 0, 0);
 }
